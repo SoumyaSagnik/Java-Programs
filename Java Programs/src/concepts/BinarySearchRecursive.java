@@ -9,9 +9,8 @@ public class BinarySearchRecursive {
 		int n = sc.nextInt();
 		int[] arr = new int[n];
 		System.out.println("Enter " + n + " elements in sorted order");
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++)
 			arr[i] = sc.nextInt();
-		}
 		System.out.println("Enter element to be searched");
 		int k = sc.nextInt();
 		sc.close();
