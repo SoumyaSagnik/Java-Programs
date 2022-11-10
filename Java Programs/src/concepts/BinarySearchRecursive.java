@@ -19,9 +19,8 @@ public class BinarySearchRecursive {
 	}
 
 	public static int binarySearch(int[] arr, int left, int right, int key) {
-		if (left > right) {
+		if (left > right)
 			return -1;
-		}
 		int mid = (left + right) / 2;
 		if (key == arr[mid])
 			return mid;
