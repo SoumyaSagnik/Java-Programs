@@ -28,5 +28,4 @@ public class BinarySearchRecursive {
 		else
 			return binarySearch(arr, mid + 1, right, key);
 	}
-	
 }
